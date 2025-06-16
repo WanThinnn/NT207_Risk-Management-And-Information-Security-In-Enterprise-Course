@@ -556,11 +556,16 @@ Nội dung bao gồm các nhóm mục tiêu kiểm soát ATTT dựa trên Phụ 
 
 # Chương 5: Quy trình quản lý rủi ro (Process)
 ## 5.1. Khái quát (General)
+![alt text](img/chuong-5-img-3.png)
 
 *   **Biện pháp kiểm soát ('Control') trong ISO/IEC 27001** là biện pháp bảo vệ hoặc đối phó để quản lý rủi ro liên quan đến bảo mật thông tin. Các biện pháp này được thiết kế để giảm lỗ hổng và mối đe dọa, đảm bảo tính bảo mật, toàn vẹn và khả dụng của tài sản thông tin. Chúng bao gồm **chính sách, quy trình, thủ tục; cơ chế kỹ thuật; cấu trúc tổ chức; và chức năng phần mềm và phần cứng**.
 *   **Quy trình QLRR phải tuân thủ nguyên tắc và khuôn khổ QLRR theo ISO 31000:2018**, áp dụng một cách hệ thống các chính sách, thủ tục và thực hành của tổ chức. Cần có bộ văn bản Quy trình QLRR được ban hành và triển khai.
 *   Đối với QLRR ATTT, quy trình cần được **tùy chỉnh theo yêu cầu của ISO 27005:2008**, với **hai điểm kiểm soát để ra quyết định trước khi chấp nhận nghiệm thu**.
-*   Quy trình QLRR có thể được thực hiện theo **chu trình PDCA (Plan-Do-Check-Act)**, bao gồm các bước: **Trao đổi thông tin và tham vấn; Xác định phạm vi, bối cảnh và tiêu chí; Đánh giá rủi ro (nhận diện, phân tích, đánh giá); Xử lý rủi ro (lựa chọn và lập kế hoạch); Theo dõi và xem xét; Cải tiến, lập hồ sơ và báo cáo**.
+*   Quy trình QLRR có thể được thực hiện theo **chu trình PDCA (Plan-Do-Check-Act)**, bao gồm các bước: 
+    *   P: Trao đổi thông tin và tham vấn; Xác định phạm vi, bối cảnh và tiêu chí; 
+    *   D: Đánh giá rủi ro (nhận diện, phân tích, đánh giá); Xử lý rủi ro (lựa chọn và lập kế hoạch); 
+    *   C: Theo dõi và xem xét; 
+    *   A: Cải tiến, lập hồ sơ và báo cáo.
 *   Tại doanh nghiệp, Quy trình QLRR có thể gồm **11 bước chi tiết** từ lập kế hoạch đến lưu hồ sơ:
 
 
@@ -589,10 +594,11 @@ Nội dung bao gồm các nhóm mục tiêu kiểm soát ATTT dựa trên Phụ 
 *   Mục đích là **tùy chỉnh quá trình quản lý rủi ro**, cho phép đánh giá và xử lý rủi ro hiệu quả, đồng thời xác định **phạm vi, bối cảnh nội bộ và bên ngoài, và tiêu chí rủi ro**.
 *   **Xác định phạm vi** dựa trên mục tiêu, sản phẩm/dịch vụ, ranh giới, quyết định cần thực hiện, các cấp độ khác nhau, thời gian, địa điểm, công cụ kỹ thuật, và mối quan hệ với các hoạt động khác.
 *   **Bối cảnh nội bộ và bên ngoài** cần đáp ứng theo khuôn khổ QLRR (ISO 31000:2018), bao gồm việc **hiểu về tổ chức và bối cảnh**.
+![alt text](img/chuong-5-img-1.png)
 *   **Xác định tiêu chí rủi ro** dựa trên ISO 31000:2018, xác định mức độ nghiêm trọng của rủi ro để hỗ trợ ra quyết định, quy định mức độ rủi ro chấp nhận được, và cần được văn bản hóa.
 *   **Khẩu vị rủi ro (Risk Appetite)** thể hiện sự chấp nhận tổn thất để theo đuổi mục tiêu. Bảng 2 thể hiện khẩu vị rủi ro của doanh nghiệp đối với tổn thất tài chính.
 *   **Ma trận đánh giá rủi ro ('Risk Matrix')** được hình thành từ việc phối hợp các tiêu chí về khả năng xảy ra và tác động của rủi ro. Thường sử dụng ma trận 6x6, với cột biểu thị khả năng xảy ra và hàng biểu thị mức độ nghiêm trọng.
-![image](https://hackmd.io/_Tài liệu này cung cấp hướng dẫn về quản lý rủi ro ATTT trong doanh nghiệp theo ISO 31000:2018 kết hợp với ISO 27000:2018, ISO 27001:2013, ISO 27002:2013, ISO 27005:2008 và ISO 22301:2019.Tài liệu này cung cấp hướng dẫn về quản lý rủi ro ATTT trong doanh nghiệp theo ISO 31000:2018 kết hợp với ISO 27000:2018, ISO 27001:2013, ISO 27002:2013, ISO 27005:2008 và ISO 22301:2019.Tài liệu này cung cấp hướng dẫn về quản lý rủi ro ATTT trong doanh nghiệp theo ISO 31000:2018 kết hợp với ISO 27000:2018, ISO 27001:2013, ISO 27002:2013, ISO 27005:2008 và ISO 22301:2019.Tài liệu này cung cấp hướng dẫn về quản lý rủi ro ATTT trong doanh nghiệp theo ISO 31000:2018 kết hợp với ISO 27000:2018, ISO 27001:2013, ISO 27002:2013, ISO 27005:2008 và ISO 22301:2019.uploads/ry5oWn1R1x.png)
+![alt text](img/chuong-5-img-2.png)
 
 ## **5.4. Đánh giá rủi ro (Risk Assessment)**
 
@@ -621,11 +627,10 @@ Nội dung bao gồm các nhóm mục tiêu kiểm soát ATTT dựa trên Phụ 
 *   Để cải tiến, cần có khả năng đo lường, phân tích, quản lý và kiểm soát => *Tạo giá trị > Đo lường > Phân tích > Quản lý > Kiểm soát > Cải tiến*
 *   Cần **lập hồ sơ quá trình QLRR theo ISO 31000:2018**, bao gồm các văn bản và lưu trữ.
 *   Cần **báo cáo cho các bên liên quan** theo cơ chế và yêu cầu thông tin cụ thể.
-:
+
 
 # **Chương 6: Chiến lược quản lý rủi ro (RM-Strategy)**
 ## **6.1. Khái quát (General)**
-
 *   Một chủ doanh nghiệp phát biểu rằng QLRR ATTT nhằm **bảo vệ các giá trị và tài sản của doanh nghiệp**, **tập trung nguồn lực** vào việc giải quyết các rủi ro ảnh hưởng đến việc đạt được **mục tiêu**, **thiết lập kịp thời các biện pháp kiểm soát** để phản ứng nhanh chóng và hiệu quả khi rủi ro xảy ra, và **đảm bảo doanh nghiệp hoạt động liên tục** khi đối mặt với sự không chắc chắn.
 *   Một phát biểu khác về QLRR ATTT tập trung vào việc **thiết lập và duy trì thời gian gián đoạn hệ thống CNTT không quá 2 giờ/năm** và **thời gian phục hồi hệ thống (RTO) không quá 30 phút** khi có sự cố ATTT.
 * **Mục đích của doanh nghiệp(1)**: Mục đích của doanh nghiệp gần với **tầm nhìn, sứ mệnh** và có tính **chung chung hoặc trừu tượng**, **dài hạn**, và **thiếu rõ ràng, không cụ thể**.
@@ -737,7 +742,7 @@ Nội dung bao gồm các nhóm mục tiêu kiểm soát ATTT dựa trên Phụ 
         *   **Khả năng xảy ra “Occ” (“Occurrence”)**.
         *   **Mức độ nghiêm trọng (“Sev”)**.
         *   **Khả năng phát hiện (“Det”)**.
-    *   **Bước 4.4:** **Số ưu tiên rủi ro (RPN)** được tính bằng cách nhân các giá trị định lượng của Sev, Occ, Det (RPN = Sev x Occ x Det).
+        *   **Số ưu tiên rủi ro (RPN)** được tính bằng cách nhân các giá trị định lượng của Sev, Occ, Det (RPN = Sev x Occ x Det).
     *   **Bước 5:** Xác định **phạm vi của FMEA**, bao gồm khái niệm, hệ thống, quy trình, sản phẩm hay dịch vụ liên quan đến ATTT, ranh giới nhận diện rủi ro và mức độ chi tiết, có thể sử dụng lưu đồ/sơ đồ.
     *   **Bước 6:** Thực hiện theo trình tự:
         *   **Bước 1:** Nhập tên bước của quy trình.
@@ -816,6 +821,7 @@ Nội dung bao gồm các nhóm mục tiêu kiểm soát ATTT dựa trên Phụ 
     *   **Recovery Time Objective (RTO)**: Thời gian cho phép để thực hiện khôi phục tạm thời một dịch vụ CNTT sau khi bị gián đoạn. Đây là thời gian tối đa một hệ thống có thể ngừng hoạt động sau thảm họa.
     *   **Work Recovery Time (WRT)**: Thời gian cần thiết để khôi phục dữ liệu hoặc dịch vụ để quy trình trở lại hoạt động bình thường sau khi khôi phục tạm thời.
     *   **Maximum Tolerable Downtime (MTD)**: Tổng thời gian ngừng hoạt động tối đa được cho phép của quy trình, là tổng của RTO và WRT.
+  ![alt text](img/chuong-8-img-1.png)
     *   **Mức độ quan trọng**: Được xác định theo yêu cầu thời gian ngưng hoạt động tối đa (MTD) của quy trình trọng yếu, chia thành 5 mức: Trọng yếu (vài phút - 1 giờ), Khẩn cấp (trong 24 giờ), Quan trọng (trong 72 giờ), Bình thường (trong một tuần), Không quan trọng (trong 30 ngày).
     *   Tham khảo ISO 22301:2019 để biết thêm các định nghĩa khác.
 
