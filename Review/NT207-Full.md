@@ -151,6 +151,9 @@ tags: [Năm 3 - HK2]
 *   **Residual Risk (Rủi ro còn lại)**: Rủi ro còn lại sau khi xử lý rủi ro [ISO 27000:2018]. Có thể bao gồm rủi ro chưa được nhận diện và còn được gọi là "retained risk". Ví dụ về việc sử dụng UPS không triệt tiêu hoàn toàn rủi ro liên quan đến nguồn điện.
 *   **Risk Criteria (Tiêu chí rủi ro)**: Điều khoản tham chiếu để đánh giá mức độ (cao/thấp), tầm quan trọng của rủi ro [ISO 27000:2018]. Dựa trên mục tiêu tổ chức, bối cảnh bên ngoài và bên trong. Có thể đượcDerived from standards, laws, policies và các yêu cầu khác. Thể hiện quan điểm về mức độ rủi ro có thể chấp nhận/chịu đựng được. Giúp doanh nghiệp thể hiện khả năng chấp nhận rủi ro trong quá trình ra quyết định (rủi ro chấp nhận được, không chấp nhận được, cần giảm xuống mức thấp nhất có thể). Mức độ rủi ro chấp nhận được dựa trên đánh giá khả năng xảy ra, hậu quả, hiệu quả kiểm soát và xếp hạng rủi ro. Ví dụ về xếp hạng rủi ro theo mức độ Thấp, Trung bình, Cao dựa trên khả năng xảy ra và hậu quả.
 *   **Risk matrix (Ma trận rủi ro)**: Trình bày xếp hạng rủi ro, khả năng xảy ra và hậu quả theo dạng ma trận. Thể hiện mức độ chấp nhận rủi ro và hành động được khuyến nghị tương ứng với từng mức rủi ro (Rất cao - Không thể chấp nhận - Phải giảm thiểu; Cao - Không thể chấp nhận - Nên giảm thiểu; Trung bình - Trung bình - Có thể giảm thiểu; Thấp - Có thể chấp nhận - Không cần giảm thiểu). Ví dụ về ma trận rủi ro dựa trên tổn thất tài chính.
+    ![alt text](img/chuong-1-matrix.png)
+    ![alt text](img/chuong-1-matrix-2.png)
+    
 *   **Risk Assessment - Risk Evaluation (Đánh giá rủi ro - Đánh giá rủi ro)**:
     *   **Risk Assessment** là quá trình tổng thể gồm nhận diện rủi ro, phân tích rủi ro và đánh giá rủi ro.
     *   **Risk Evaluation** là quá trình so sánh kết quả phân tích rủi ro với tiêu chí rủi ro để xác định mức độ chấp nhận được của rủi ro. Hỗ trợ quyết định về xử lý rủi ro.
@@ -389,7 +392,7 @@ Nội dung bao gồm các nhóm mục tiêu kiểm soát ATTT dựa trên Phụ 
     *   QLRR dựa trên các nguyên tắc, khuôn khổ và quy trình.
 
 *   **Các thành phần của quản lý rủi ro theo ISO 31000**
-    *   (Đề mục này có hình ảnh minh họa là Hình 1 nhưng không có nội dung chữ được trích dẫn cụ thể)
+    ![Chuomg-3-fig-1](img/chương-3-fig-1.png)
 
 *   **Lợi ích của quản lý rủi ro**: QLRR ATTT giúp đạt được mục tiêu (là giá trị) thông qua:
     *   Thiết lập các biện pháp kiểm soát.
@@ -409,7 +412,7 @@ Nội dung bao gồm các nhóm mục tiêu kiểm soát ATTT dựa trên Phụ 
     *   Yếu tố con người và văn hóa (Human and Cultural Factors)
     *   Cải tiến liên tục (Continual Improvement)
 
-*   **Nguyên tắc quản lý rủi ro(1)**
+*   **Nguyên tắc quản lý rủi ro(0)**
     *   Là một ý tưởng, chân lý hoặc quy tắc cơ bản giải thích hoặc kiểm soát cách hoạt động của doanh nghiệp tập trung vào QLRR.
     *   Là một quy tắc đạo đức hoặc tiêu chuẩn của QLRR.
     *   Là một luật lệ, quy tắc hoặc lý thuyết mà QLRR dựa vào.
@@ -461,9 +464,6 @@ Nội dung bao gồm các nhóm mục tiêu kiểm soát ATTT dựa trên Phụ 
         *   **D**o: Thực hiện.
         *   **C**heck: Kiểm tra, giám sát.
         *   **A**ct: Duy trì và cải tiến kết quả.
-
-*   **Nguyên tắc QLRR(8): Cải tiến liên tục …**
-    *   **CHU TRÌNH PDCA (CHU TRÌNH DEMING)** (Đề mục này có hình ảnh minh họa nhưng không có nội dung chữ được trích dẫn cụ thể ngoài tên gọi)
     *   QLRR được cải tiến liên tục thông qua tạo giá trị, học hỏi (từ khách hàng,...) và kinh nghiệm.
     *   Để cải tiến, cần tạo giá trị và ghi nhớ: Nếu không thể đo lường thì không thể phân tích; Nếu không thể phân tích thì không thể quản lý; Nếu không thể quản lý thì không thể kiểm soát; Nếu không thể kiểm soát thì không thể cải tiến.
 
@@ -592,7 +592,7 @@ Nội dung bao gồm các nhóm mục tiêu kiểm soát ATTT dựa trên Phụ 
 *   **Xác định tiêu chí rủi ro** dựa trên ISO 31000:2018, xác định mức độ nghiêm trọng của rủi ro để hỗ trợ ra quyết định, quy định mức độ rủi ro chấp nhận được, và cần được văn bản hóa.
 *   **Khẩu vị rủi ro (Risk Appetite)** thể hiện sự chấp nhận tổn thất để theo đuổi mục tiêu. Bảng 2 thể hiện khẩu vị rủi ro của doanh nghiệp đối với tổn thất tài chính.
 *   **Ma trận đánh giá rủi ro ('Risk Matrix')** được hình thành từ việc phối hợp các tiêu chí về khả năng xảy ra và tác động của rủi ro. Thường sử dụng ma trận 6x6, với cột biểu thị khả năng xảy ra và hàng biểu thị mức độ nghiêm trọng.
-![image](https://hackmd.io/_uploads/ry5oWn1R1x.png)
+![image](https://hackmd.io/_Tài liệu này cung cấp hướng dẫn về quản lý rủi ro ATTT trong doanh nghiệp theo ISO 31000:2018 kết hợp với ISO 27000:2018, ISO 27001:2013, ISO 27002:2013, ISO 27005:2008 và ISO 22301:2019.Tài liệu này cung cấp hướng dẫn về quản lý rủi ro ATTT trong doanh nghiệp theo ISO 31000:2018 kết hợp với ISO 27000:2018, ISO 27001:2013, ISO 27002:2013, ISO 27005:2008 và ISO 22301:2019.Tài liệu này cung cấp hướng dẫn về quản lý rủi ro ATTT trong doanh nghiệp theo ISO 31000:2018 kết hợp với ISO 27000:2018, ISO 27001:2013, ISO 27002:2013, ISO 27005:2008 và ISO 22301:2019.Tài liệu này cung cấp hướng dẫn về quản lý rủi ro ATTT trong doanh nghiệp theo ISO 31000:2018 kết hợp với ISO 27000:2018, ISO 27001:2013, ISO 27002:2013, ISO 27005:2008 và ISO 22301:2019.uploads/ry5oWn1R1x.png)
 
 ## **5.4. Đánh giá rủi ro (Risk Assessment)**
 
