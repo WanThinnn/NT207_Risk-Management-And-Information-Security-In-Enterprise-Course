@@ -1,87 +1,23 @@
 ---
-title: NT207 - QUẢN LÝ RỦI RO VÀ AN TOÀN THÔNG TIN TRONG DOANH NGHIỆP
-tags: [Năm 3 - HK2]
+title: "NT207 – Quản Lý Rủi Ro Và ATTT Trong Doanh Nghiệp"
+author: "Lại Quan Thiên"
+lang: vi
+documentclass: article
+top-level-division: section
+papersize: a4paper
+fontsize: 13pt
+geometry: margin=2cm
+mainfont: "Times New Roman"
+toc: true
+numbersections: false
+header-includes:
+  - \usepackage{etoolbox}
+  - \apptocmd{\tableofcontents}{\clearpage}{}{}
+  - \usepackage{titlesec}
+  - \titleformat{\section}{\clearpage\Large\bfseries}{\thesection}{1em}{}
 ---
-<!-- omit in toc -->
-
-<h1> NT207 - QUẢN LÝ RỦI RO VÀ AN TOÀN THÔNG TIN TRONG DOANH NGHIỆP</h1>
-
-<h1>Mục Lục</h1>
 
 
-
-
-- [Chương 1: Giới thiệu về QLRR - Phạm vi QLRR - Các thuật ngữ và định nghĩa](#chương-1-giới-thiệu-về-qlrr---phạm-vi-qlrr---các-thuật-ngữ-và-định-nghĩa)
-  - [**1.1. Giới Thiệu Về QLRR**](#11-giới-thiệu-về-qlrr)
-  - [**1.2. Phạm Vi QLRR**](#12-phạm-vi-qlrr)
-  - [**1.3. Các thuật ngữ và định nghĩa về Rủi ro (RR) và Quản Lý Rủi ro**](#13-các-thuật-ngữ-và-định-nghĩa-về-rủi-ro-rr-và-quản-lý-rủi-ro)
-- [Chương 2: Mối đe dọa , Điểm yếu , Các mục tiêu kiểm soát và kiểm soát Rủi ro ATTT](#chương-2-mối-đe-dọa--điểm-yếu--các-mục-tiêu-kiểm-soát-và-kiểm-soát-rủi-ro-attt)
-  - [2.1. Mối đe dọa (Threat)](#21-mối-đe-dọa-threat)
-    - [2.1.1. Định nghĩa mối đe dọa (Threat)](#211-định-nghĩa-mối-đe-dọa-threat)
-    - [**2.1.2. Sự cố (Incident) trong định nghĩa mối đe dọa**](#212-sự-cố-incident-trong-định-nghĩa-mối-đe-dọa)
-    - [**2.1.3. Các ví dụ về mối đe dọa ATTT**](#213-các-ví-dụ-về-mối-đe-dọa-attt)
-    - [**2.1.4. Cách nhận biết mối đe dọa đối với ATTT**](#214-cách-nhận-biết-mối-đe-dọa-đối-với-attt)
-    - [**2.1.5. Phân biệt mối đe dọa và rủi ro khi phát biểu**](#215-phân-biệt-mối-đe-dọa-và-rủi-ro-khi-phát-biểu)
-  - [**2.2. Điểm yếu (Vulnerability)**](#22-điểm-yếu-vulnerability)
-    - [**2.2.1. Định nghĩa điểm yếu (Vulnerability)**](#221-định-nghĩa-điểm-yếu-vulnerability)
-    - [**2.2.2. Các ví dụ về điểm yếu**](#222-các-ví-dụ-về-điểm-yếu)
-    - [**2.2.3. Cách nhận biết điểm yếu đối với ATTT**](#223-cách-nhận-biết-điểm-yếu-đối-với-attt)
-    - [**2.2.4. Báo cáo về một mối đe dọa khai thác điểm yếu**](#224-báo-cáo-về-một-mối-đe-dọa-khai-thác-điểm-yếu)
-    - [**2.2.5. Phân biệt điểm yếu và rủi ro khi phát biểu**](#225-phân-biệt-điểm-yếu-và-rủi-ro-khi-phát-biểu)
-  - [**2.3. Các Mục Tiêu Kiểm Soát Và Kiểm Soát Rủi Ro ATTT**](#23-các-mục-tiêu-kiểm-soát-và-kiểm-soát-rủi-ro-attt)
-    - [**2.3.1 Các chính sách ATTT** (Nhóm A.5)](#231-các-chính-sách-attt-nhóm-a5)
-    - [**2.3.2 Tổ chức đảm bảo ATTT** (Nhóm A.6)](#232-tổ-chức-đảm-bảo-attt-nhóm-a6)
-    - [**2.3.3 An toàn nguồn nhân lực** (Nhóm A.7)](#233-an-toàn-nguồn-nhân-lực-nhóm-a7)
-    - [**2.3.4 Quản lý tài sản** (Nhóm A.8)](#234-quản-lý-tài-sản-nhóm-a8)
-    - [**2.3.5 Quản lý truy cập** (Nhóm A.9)](#235-quản-lý-truy-cập-nhóm-a9)
-    - [**2.3.6 Mật mã học** (Nhóm A.10)](#236-mật-mã-học-nhóm-a10)
-    - [**2.3.7 An toàn vật lý và môi trường** (Nhóm A.11)](#237-an-toàn-vật-lý-và-môi-trường-nhóm-a11)
-    - [**2.3.8 An toàn vận hành** (Nhóm A.12)](#238-an-toàn-vận-hành-nhóm-a12)
-    - [**2.3.9 An toàn truyền thông** (Nhóm A.13)](#239-an-toàn-truyền-thông-nhóm-a13)
-    - [**2.3.10 Tiếp nhận, phát triển và duy trì hệ thống** (Nhóm A.14)](#2310-tiếp-nhận-phát-triển-và-duy-trì-hệ-thống-nhóm-a14)
-    - [**2.3.11 Quan hệ với nhà cung cấp** (Nhóm A.15)](#2311-quan-hệ-với-nhà-cung-cấp-nhóm-a15)
-    - [**2.3.12 Quản lý sự cố ATTT** (Nhóm A.16)](#2312-quản-lý-sự-cố-attt-nhóm-a16)
-    - [**2.3.13 ATTT trong quản lý liên tục hoạt động** (Nhóm A.17)](#2313-attt-trong-quản-lý-liên-tục-hoạt-động-nhóm-a17)
-    - [**2.3.14 Sự tuân thủ** (Nhóm A.18)](#2314-sự-tuân-thủ-nhóm-a18)
-- [Chương 3: Các nguyên tắc quản lý rủi ro (Principles)](#chương-3-các-nguyên-tắc-quản-lý-rủi-ro-principles)
-  - [**3.1. Mục đích quản lý rủi ro (QLRR)**](#31-mục-đích-quản-lý-rủi-ro-qlrr)
-  - [**3.2. Các nguyên tắc quản lý rủi ro (QLRR)**](#32-các-nguyên-tắc-quản-lý-rủi-ro-qlrr)
-- [Chương 4: Khuôn khổ quản lý rủi ro (Framework)](#chương-4-khuôn-khổ-quản-lý-rủi-ro-framework)
-  - [**4.1. Khái quát (General)**](#41-khái-quát-general)
-  - [**4.2. Sự lãnh đạo và cam kết (Leadership and commitment)**](#42-sự-lãnh-đạo-và-cam-kết-leadership-and-commitment)
-  - [**4.3. Tích hợp (Integration)**](#43-tích-hợp-integration)
-  - [**4.4. Thiết kế (Design)**](#44-thiết-kế-design)
-  - [**4.5. Thực thi - Áp dụng (Implementation)**](#45-thực-thi---áp-dụng-implementation)
-  - [**4.6. Xem xét và đánh giá (Evaluation)**](#46-xem-xét-và-đánh-giá-evaluation)
-  - [**4.7. Cải tiến (Improvement)**](#47-cải-tiến-improvement)
-- [Chương 5: Quy trình quản lý rủi ro (Process)](#chương-5-quy-trình-quản-lý-rủi-ro-process)
-  - [5.1. Khái quát (General)](#51-khái-quát-general)
-  - [**5.2. Trao đổi thông tin và tham vấn (Establishing communication and consultation)**](#52-trao-đổi-thông-tin-và-tham-vấn-establishing-communication-and-consultation)
-  - [**5.3. Phạm vi, bối cảnh và tiêu chí (Scope, context and criteria)**](#53-phạm-vi-bối-cảnh-và-tiêu-chí-scope-context-and-criteria)
-  - [**5.4. Đánh giá rủi ro (Risk Assessment)**](#54-đánh-giá-rủi-ro-risk-assessment)
-  - [**5.5. Xử lý rủi ro (Risk Treatment)**](#55-xử-lý-rủi-ro-risk-treatment)
-  - [**5.6. Theo dõi và Xem xét (Monitoring and review)**](#56-theo-dõi-và-xem-xét-monitoring-and-review)
-  - [**5.7. Cải tiến, lập hồ sơ và báo cáo (Improving, Recording and Reporting)**](#57-cải-tiến-lập-hồ-sơ-và-báo-cáo-improving-recording-and-reporting)
-- [**Chương 6: Chiến lược quản lý rủi ro (RM-Strategy)**](#chương-6-chiến-lược-quản-lý-rủi-ro-rm-strategy)
-  - [**6.1. Khái quát (General)**](#61-khái-quát-general)
-  - [**6.2. Các định nghĩa chiến lược**](#62-các-định-nghĩa-chiến-lược)
-  - [**6.3. Chiến lược QLRR ATTT (Risk Management Strategy)**](#63-chiến-lược-qlrr-attt-risk-management-strategy)
-- [Chương 7. Triển khai phương pháp FMEA/FMECA cho QLRR](#chương-7-triển-khai-phương-pháp-fmeafmeca-cho-qlrr)
-  - [**7.1. Khái quát (General)**](#71-khái-quát-general)
-  - [**7.2. Các định nghĩa về FMEA**](#72-các-định-nghĩa-về-fmea)
-  - [**7.3. Các định nghĩa về FMECA**](#73-các-định-nghĩa-về-fmeca)
-  - [**7.4. Triển khai phương pháp FMEA và FMECA**](#74-triển-khai-phương-pháp-fmea-và-fmeca)
-  - [**7.5. Kế hoạch hành động (Action Plan)**](#75-kế-hoạch-hành-động-action-plan)
-- [Chương 8: Kế hoạch kinh doanh liên tục](#chương-8-kế-hoạch-kinh-doanh-liên-tục)
-  - [**8.1. Khái quát (General)**](#81-khái-quát-general)
-  - [**8.2. Vai trò của kế hoạch hoạt động liên tục (Roles of the BCP)**](#82-vai-trò-của-kế-hoạch-hoạt-động-liên-tục-roles-of-the-bcp)
-  - [**8.3. Yêu cầu về lập kế hoạch kinh doanh liên tục**](#83-yêu-cầu-về-lập-kế-hoạch-kinh-doanh-liên-tục)
-  - [**8.4. Quy trình lập kế hoạch kinh doanh liên tục (Implementation by a Process of BCP)**](#84-quy-trình-lập-kế-hoạch-kinh-doanh-liên-tục-implementation-by-a-process-of-bcp)
-- [Chương 9 Chỉ Số Rủi Ro Trọng Yếu (Key Risk Indicator)](#chương-9-chỉ-số-rủi-ro-trọng-yếu-key-risk-indicator)
-  - [**9.1. Khái quát (General)**](#91-khái-quát-general)
-  - [**9.2. Phân biệt KPI và KRI**](#92-phân-biệt-kpi-và-kri)
-  - [**9.3. Cách thiết lập và phát triển KRI**](#93-cách-thiết-lập-và-phát-triển-kri)
-  - [**9.4. Các chỉ số rủi ro trọng yếu (KRI) tiêu biểu**](#94-các-chỉ-số-rủi-ro-trọng-yếu-kri-tiêu-biểu)
 
 
 # Chương 1: Giới thiệu về QLRR - Phạm vi QLRR - Các thuật ngữ và định nghĩa
@@ -151,8 +87,8 @@ tags: [Năm 3 - HK2]
 *   **Residual Risk (Rủi ro còn lại)**: Rủi ro còn lại sau khi xử lý rủi ro [ISO 27000:2018]. Có thể bao gồm rủi ro chưa được nhận diện và còn được gọi là "retained risk". Ví dụ về việc sử dụng UPS không triệt tiêu hoàn toàn rủi ro liên quan đến nguồn điện.
 *   **Risk Criteria (Tiêu chí rủi ro)**: Điều khoản tham chiếu để đánh giá mức độ (cao/thấp), tầm quan trọng của rủi ro [ISO 27000:2018]. Dựa trên mục tiêu tổ chức, bối cảnh bên ngoài và bên trong. Có thể đượcDerived from standards, laws, policies và các yêu cầu khác. Thể hiện quan điểm về mức độ rủi ro có thể chấp nhận/chịu đựng được. Giúp doanh nghiệp thể hiện khả năng chấp nhận rủi ro trong quá trình ra quyết định (rủi ro chấp nhận được, không chấp nhận được, cần giảm xuống mức thấp nhất có thể). Mức độ rủi ro chấp nhận được dựa trên đánh giá khả năng xảy ra, hậu quả, hiệu quả kiểm soát và xếp hạng rủi ro. Ví dụ về xếp hạng rủi ro theo mức độ Thấp, Trung bình, Cao dựa trên khả năng xảy ra và hậu quả.
 *   **Risk matrix (Ma trận rủi ro)**: Trình bày xếp hạng rủi ro, khả năng xảy ra và hậu quả theo dạng ma trận. Thể hiện mức độ chấp nhận rủi ro và hành động được khuyến nghị tương ứng với từng mức rủi ro (Rất cao - Không thể chấp nhận - Phải giảm thiểu; Cao - Không thể chấp nhận - Nên giảm thiểu; Trung bình - Trung bình - Có thể giảm thiểu; Thấp - Có thể chấp nhận - Không cần giảm thiểu). Ví dụ về ma trận rủi ro dựa trên tổn thất tài chính.
-    ![alt text](img/chuong-1-matrix.png)
-    ![alt text](img/chuong-1-matrix-2.png)
+![alt text](img/chuong-1-matrix.png){align="center"}
+![alt text](img/chuong-1-matrix-2.png){align="center"}
     
 *   **Risk Assessment - Risk Evaluation (Đánh giá rủi ro - Đánh giá rủi ro)**:
     *   **Risk Assessment** là quá trình tổng thể gồm nhận diện rủi ro, phân tích rủi ro và đánh giá rủi ro.
@@ -392,8 +328,8 @@ Nội dung bao gồm các nhóm mục tiêu kiểm soát ATTT dựa trên Phụ 
     *   QLRR dựa trên các nguyên tắc, khuôn khổ và quy trình.
 
 *   **Các thành phần của quản lý rủi ro theo ISO 31000**
-    ![Chuomg-3-fig-1](img/chương-3-fig-1.png)
-
+  
+    ![Chuomg-3-fig-1](img/chương-3-fig-1.png){align="center"}
 *   **Lợi ích của quản lý rủi ro**: QLRR ATTT giúp đạt được mục tiêu (là giá trị) thông qua:
     *   Thiết lập các biện pháp kiểm soát.
     *   Cải thiện việc ra quyết định dựa trên tiêu chí rủi ro.
@@ -556,7 +492,7 @@ Nội dung bao gồm các nhóm mục tiêu kiểm soát ATTT dựa trên Phụ 
 
 # Chương 5: Quy trình quản lý rủi ro (Process)
 ## 5.1. Khái quát (General)
-![alt text](img/chuong-5-img-3.png)
+![alt text](img/chuong-5-img-3.png){align="center"}
 
 *   **Biện pháp kiểm soát ('Control') trong ISO/IEC 27001** là biện pháp bảo vệ hoặc đối phó để quản lý rủi ro liên quan đến bảo mật thông tin. Các biện pháp này được thiết kế để giảm lỗ hổng và mối đe dọa, đảm bảo tính bảo mật, toàn vẹn và khả dụng của tài sản thông tin. Chúng bao gồm **chính sách, quy trình, thủ tục; cơ chế kỹ thuật; cấu trúc tổ chức; và chức năng phần mềm và phần cứng**.
 *   **Quy trình QLRR phải tuân thủ nguyên tắc và khuôn khổ QLRR theo ISO 31000:2018**, áp dụng một cách hệ thống các chính sách, thủ tục và thực hành của tổ chức. Cần có bộ văn bản Quy trình QLRR được ban hành và triển khai.
@@ -594,11 +530,14 @@ Nội dung bao gồm các nhóm mục tiêu kiểm soát ATTT dựa trên Phụ 
 *   Mục đích là **tùy chỉnh quá trình quản lý rủi ro**, cho phép đánh giá và xử lý rủi ro hiệu quả, đồng thời xác định **phạm vi, bối cảnh nội bộ và bên ngoài, và tiêu chí rủi ro**.
 *   **Xác định phạm vi** dựa trên mục tiêu, sản phẩm/dịch vụ, ranh giới, quyết định cần thực hiện, các cấp độ khác nhau, thời gian, địa điểm, công cụ kỹ thuật, và mối quan hệ với các hoạt động khác.
 *   **Bối cảnh nội bộ và bên ngoài** cần đáp ứng theo khuôn khổ QLRR (ISO 31000:2018), bao gồm việc **hiểu về tổ chức và bối cảnh**.
+  
 ![alt text](img/chuong-5-img-1.png)
+
 *   **Xác định tiêu chí rủi ro** dựa trên ISO 31000:2018, xác định mức độ nghiêm trọng của rủi ro để hỗ trợ ra quyết định, quy định mức độ rủi ro chấp nhận được, và cần được văn bản hóa.
 *   **Khẩu vị rủi ro (Risk Appetite)** thể hiện sự chấp nhận tổn thất để theo đuổi mục tiêu. Bảng 2 thể hiện khẩu vị rủi ro của doanh nghiệp đối với tổn thất tài chính.
 *   **Ma trận đánh giá rủi ro ('Risk Matrix')** được hình thành từ việc phối hợp các tiêu chí về khả năng xảy ra và tác động của rủi ro. Thường sử dụng ma trận 6x6, với cột biểu thị khả năng xảy ra và hàng biểu thị mức độ nghiêm trọng.
-![alt text](img/chuong-5-img-2.png)
+
+![alt text](img/chuong-5-img-2.png){align="center"}
 
 ## **5.4. Đánh giá rủi ro (Risk Assessment)**
 
@@ -629,7 +568,7 @@ Nội dung bao gồm các nhóm mục tiêu kiểm soát ATTT dựa trên Phụ 
 *   Cần **báo cáo cho các bên liên quan** theo cơ chế và yêu cầu thông tin cụ thể.
 
 
-# **Chương 6: Chiến lược quản lý rủi ro (RM-Strategy)**
+# Chương 6: Chiến lược quản lý rủi ro (RM-Strategy)
 ## **6.1. Khái quát (General)**
 *   Một chủ doanh nghiệp phát biểu rằng QLRR ATTT nhằm **bảo vệ các giá trị và tài sản của doanh nghiệp**, **tập trung nguồn lực** vào việc giải quyết các rủi ro ảnh hưởng đến việc đạt được **mục tiêu**, **thiết lập kịp thời các biện pháp kiểm soát** để phản ứng nhanh chóng và hiệu quả khi rủi ro xảy ra, và **đảm bảo doanh nghiệp hoạt động liên tục** khi đối mặt với sự không chắc chắn.
 *   Một phát biểu khác về QLRR ATTT tập trung vào việc **thiết lập và duy trì thời gian gián đoạn hệ thống CNTT không quá 2 giờ/năm** và **thời gian phục hồi hệ thống (RTO) không quá 30 phút** khi có sự cố ATTT.
@@ -821,9 +760,11 @@ Nội dung bao gồm các nhóm mục tiêu kiểm soát ATTT dựa trên Phụ 
     *   **Recovery Time Objective (RTO)**: Thời gian cho phép để thực hiện khôi phục tạm thời một dịch vụ CNTT sau khi bị gián đoạn. Đây là thời gian tối đa một hệ thống có thể ngừng hoạt động sau thảm họa.
     *   **Work Recovery Time (WRT)**: Thời gian cần thiết để khôi phục dữ liệu hoặc dịch vụ để quy trình trở lại hoạt động bình thường sau khi khôi phục tạm thời.
     *   **Maximum Tolerable Downtime (MTD)**: Tổng thời gian ngừng hoạt động tối đa được cho phép của quy trình, là tổng của RTO và WRT.
-  ![alt text](img/chuong-8-img-1.png)
+
     *   **Mức độ quan trọng**: Được xác định theo yêu cầu thời gian ngưng hoạt động tối đa (MTD) của quy trình trọng yếu, chia thành 5 mức: Trọng yếu (vài phút - 1 giờ), Khẩn cấp (trong 24 giờ), Quan trọng (trong 72 giờ), Bình thường (trong một tuần), Không quan trọng (trong 30 ngày).
     *   Tham khảo ISO 22301:2019 để biết thêm các định nghĩa khác.
+
+![alt text](img/chuong-8-img-1.png){align="center"}
 
 ## **8.2. Vai trò của kế hoạch hoạt động liên tục (Roles of the BCP)**
 
