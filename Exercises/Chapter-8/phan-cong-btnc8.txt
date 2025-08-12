@@ -1,0 +1,39 @@
+PHÂN CÔNG THỰC HIỆN BÀI TẬP NHÓM CHƯƠNG 8 - NHÓM 3
+1. Sơ lược
+1.1. Kế hoạch hành động cho 3 rủi ro theo đề bài
+	Chúng ta sẽ có 4 ngày là 04,05,06,07/5/2025 để thực hiện 3 rủi ro từ đề bài đưa ra (mình đã sao chép từ đề bài vào cột L (STT 10). 4 ngày là đã bao gồm trừ hao việc di chuyển từ quê lên SG và kéo dài thời gian để các thành viên làm kỹ hơn, có kinh nghiệm hơn, sau đó chúng ta sẽ xuống tiếp phần 1.2.
+
+1.2. Kế hoạch hành động cho rủi ro ngoài đề bài
+	Sau 4 ngày làm, các bạn có thời gian để có cái nhìn từ tổng thể -> chi tiết của đề bài này, thì nhóm chúng ta sẽ có thêm 1 ngày là ngày 08/5/2025 để đánh giá lần cuối xem doanh nghiệp này còn rủi ro gì nữa không, nếu có thì bổ sung thêm.
+
+1.3. Kiểm tra chéo
+	Cuối cùng ta có thêm nửa ngày 9/5 để kiểm tra chéo cho nhau (về lý thuyết là nửa ngày, nhưng trong toàn bộ quá trình làm, các bạn có thể lên kiểm tra chéo lúc nào cũng được, check cho nhau thôi, không phải là vấn đề gì quá to tát đâu)
+
+1.4.  Nộp bài
+	Sau 20h ngày 9/5, t sẽ nộp thầy bài làm của nhóm (có cc mail)
+
+
+
+2. Phân công chi tiết
+2.1. Kế hoạch hành động cho 3 rủi ro theo đề bài
+2.1.1. Rủi ro (1): Rủi ro vận hành do nguồn điện lưới tại TpHCM chập chờn (lúc có lúc không, hay mất điện bất ngờ) có thể làm hỏng máy chủ CSDL
+	=> Thực hiện: Nam Phương + Diệp Huy
+
+2.1.2. Rủi ro (2): Rủi ro bị lây nhiễm mã độc của kẻ tấn công có thể khiến máy chủ CSDL ngưng hoạt động
+	=> Thực hiện: Quan Thiên + Hữu Phúc
+
+2.1.3. Rủi ro (3): Rủi ro máy chủ CSDL có thể bị hỏng vật lý (như HDD, RAM...bị hư hỏng v.v.) vì tuổi thọ của linh kiện
+	=> Thực hiện: Minh Quân + Quỳnh Như + Văn chiến 
+
+2.2. Kế hoạch hành động cho rủi ro ngoài đề bài
+	(Phần này sẽ được họp và đưa ra thống nhất sau khi nhóm thực hiện xong phần 2.1)
+
+2.3. Kiểm tra chéo
+2.3.1. Rủi ro (1) => Quan Thiên + Hữu Phúc
+2.3.2. Rủi ro (2) => Minh Quân + Quỳnh Như + Văn chiến 
+2.3.3. Rủi ro (3) => Nam Phương - Diệp Huy
+
+
+2.4. Deadline
+	- Đối với deadline cho phần 2.1 => Trước 17h ngày 07/5/2025, sau 17h ngày này, các bạn được phân công kiểm tra chéo có thể lên kiểm tra được rồi.
+	- Đối với phần 2.2 => Sáng ngày 8/5, chúng ta gặp nhau cuối giờ học (11h30) tại lớp IDPS để họp nhanh và đưa ra kết luận (các thành viên nên đề xuất thêm ít nhất 1 rủi ro, sau đó nhóm họp và  lấy thêm ít nhất 1 rủi ro), sau ngày 8/5, kiểm tra chéo lần cuối đến 20h ngày 09/5/2025, sau 20h, nhóm trưởng sẽ nộp bài.

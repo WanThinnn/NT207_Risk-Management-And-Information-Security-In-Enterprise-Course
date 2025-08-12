@@ -1,0 +1,58 @@
+Phân công đề ôn tập QLRR:
+I. Phân công làm
+1. Phần trắc nghiệm
+Chia như sau: gồm 30 câu, chia cho 7 thành viên, mỗi thành viên sẽ làm 4 câu = 7*4 = 28 câu, còn 2 câu sẽ random cho thành viên khác làm.
+1-4: Chiến
+5-8: Như
+9-12: Phương
+13-16: Phúc
+17-20: Thiên
+21-24: Huy
+25-28: Quân
+29-30: Chiến
+
+
+2. Phần tự luận
+Chia như sau: gồm 10 câu, chia cho 7 thành viên, mỗi thành viên sẽ làm 1 câu = 7*1 = 7 câu, còn 3 câu sẽ random cho thành viên khác làm (trừ thành viên đã được random trước đó làm câu 29-30 trắc nghiệm)
+1: Phương
+2: Huy
+3: Thiên
+4: Chiến
+5: Quân
+6: Như
+7: Phúc
+8: Huy
+9: Phúc
+10: Thiên
+
+II. Phân công kiểm tra chéo
+1. Phần trắc nghiệm
+Chia như sau: người trên kiểm cho người dưới
+1-4: Quân
+5-8: Chiến
+9-12: Như
+13-16: Phương
+17-20: Phúc
+21-24: Thiên
+25-28: Huy
+29-30: Quân (do chiến làm 1-4 và 29-30 liên tiếp)
+
+2. Phần tự luận
+Chia như sau: người trên kiểm cho người dưới
+1: Thiên
+2: Phương
+3: Huy
+4: Thiên
+5: Chiến
+6: Quân
+7: Như
+8: Phúc
+9: Huy
+10: Phúc
+
+
+III. Deadline
+Chủ trương sẽ cố gắng xong trong tối ngày 09/5/2025 và nộp luôn cho thầy trong tối ngày 09/5/2025
+1. Đối với deadline hoàn thiện bài làm: trước 17h 08/5/2025
+2. Đối với deadline kiểm chéo: trước 20h 09/5/2025
+3. Sau 20h ngày 09/5/2025 sẽ nộp bài cho thầy để lấy đáp án

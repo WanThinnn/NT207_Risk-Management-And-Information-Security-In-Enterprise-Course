@@ -1,0 +1,19 @@
+A5: Nam Phương
+A6: Quân Lê
+A7: Quan Thiên
+A8: Như Đặng 
+A9: Huy Hồ
+A10: Hữu Phúc 
+A11: Chiến Trần
+A12: Quan Thiên
+A13: Hữu Phúc
+A14: Quân Lê
+A15: Văn Chiến
+A16: Như Đặng
+A17: Nam Phương
+A18: Huy Hồ
+
+- Lưu ý: Mỗi thành viên phải phát hiện tối thiểu 5 phát hiện cho 1 Sheet => mỗi thành viên làm 2 sheets => tối thiểu 10 phát hiện
+- Hình thức phân ng
+- Deadline 50%: mỗi người phải xong trước 3/5 phát hiện để nhóm gửi thầy check trước => 17h00 Chủ nhật ngày 09/3/2025
+- Deadline 100%: 17h00 Thứ 4 ngày 12/3/2025

@@ -1,0 +1,31 @@
+1. Phân công làm BTC5:
+Bước 1: Lập kế hoạch triển khai Microsoft 365 BS => Chiến
+Bước 2: Kiểm tra và xác nhận yêu cầu hệ thống => Huy
+Bước 3: Đánh giá rủi ro và lập kế hoạch dự phòng => Quân
+Bước 4: Trình lãnh đạo phê duyệt kế hoạch triển khai => Phương
+Bước 5: Triển khai cài đặt và cấu hình Microsoft 365 BS => Phúc
+Bước 6: Kiểm tra và xác nhận hoạt động của hệ thống > Thiên
+Bước 7: Nghiệm thu và chuyển giao nền tảng => Như
+Bước 8: Chuyển giao vận hành, đánh giá định kỳ và cải tiến hệ thống => Phương
+Bước 9: Lưu trữ hồ sơ => Như
+=>Deadline: 15h00 07/04/2025
+
+2. Phân công kiểm tra chéo BTC5: 
+B1: Như
+B2: Chiến
+B3: Huy
+B4: Quân
+B5: Phương
+B6: Phúc
+B7: Thiên
+B8: Như
+B9: Phương
+=> Deadline: 17h00 07/04/2025
+
+
+3. Thống nhất học thực hành
+Câu 1: 2 buổi
+Câu 2: buổi 1 => 4 tiết, buổi 2 => 5 tiết
+Câu 3: 6/5 với 13/5
+Câu 4: Học trong 2 tuần
+Câu 5: Thứ 3
